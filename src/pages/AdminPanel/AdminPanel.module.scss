@@ -1,0 +1,36 @@
+.nav_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  li{
+    list-style: none;
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+
+@media (max-width:768px) {
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+@media (min-width:768px) {
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+}

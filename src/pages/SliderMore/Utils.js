@@ -1,0 +1,20 @@
+export const ImgList = [
+    {
+        id:1,
+        text:'',
+        price:'',
+        url:'https://cq-esports.com/storage/uploads/games/1100793/1.jpg',
+    },
+    {
+        id:2,
+        text:'',
+        price:'',
+        url:'https://ruramps4d.ru/wp-content/uploads/9/7/b/97b25c9a34882f4a758d1669b2e6da8f.jpeg',
+    },
+    {
+        id:3,
+        text:'',
+        price:'',
+        url:'https://wallpapershome.ru/images/pages/pic_h/17818.jpg',
+    },
+] 

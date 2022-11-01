@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+.row{
+  position: fixed;
+  z-index: 3;
+  width: 94%;
+  display: flex;
+  margin: 0 3%;
+}
+.search__container{
+  width: 50%;
+  margin: auto;
+  margin-top: 1%;
+  
+
+
+}
+.logo_card{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 10px;  
+  left: 3%;
+  font-size: 1.2rem;
+
+  .logo_img{
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.nav_item ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login_btn{
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+  
+  &:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+  }
+
+  .login_btn_2 a{
+    
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+  }  
+}
+
+.nav_item ul li{
+  list-style: none;
+}
+
+.nav_item ul li a{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+

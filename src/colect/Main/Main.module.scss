@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+
+
+
+
+.scrolbar{
+  font-family: 'Delius', cursive;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+
+  .advantages_item{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .product_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:768px) {
+  .nav_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nav_list{
+      display: flex;
+      justify-content: start;
+      gap: 40px;
+      margin-bottom: 2rem;
+
+      li{
+        list-style: none;
+      }
+  
+
+      a{
+        color: white;
+        text-decoration:  none;
+        background-color: rgba(218, 165, 32, 0.555);
+        padding: 6px;
+        border-radius: 10px;
+        margin: 30px 0;
+
+
+        &:hover{
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:768px) {
+  .nav_item{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    
+    .nav_list{
+      margin: 20px 0;
+
+      li{
+        list-style: none;
+      }
+  
+
+      a{
+        color: white;
+        text-decoration:  none;
+        background-color: rgba(218, 165, 32, 0.555);
+        padding: 2px;
+        border-radius: 10px;
+        margin: 30px 0;
+
+
+        &:hover{
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+}

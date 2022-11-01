@@ -1,0 +1,35 @@
+.advantages{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin: 20px 0;
+}
+
+.advantages_item_item{
+
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  background: rgb(0, 0, 0);
+  padding: 10px 40px;
+  border-radius: 10px;
+  box-shadow:  0 0 5px gray;
+  transition: .2s;
+
+
+
+  .advantages_item_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+
+  .advantages_img{
+    width: 100%;
+  }
+}

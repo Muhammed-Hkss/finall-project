@@ -1,0 +1,39 @@
+.Order{
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  .ContainerOrder{
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 35rem;
+    border: solid 1px rgb(255, 255, 255);
+    
+    .row{
+      .ItemDate{
+        position: relative;
+        color: white;
+      }
+    
+      .ProductsName{
+        display: flex;
+        position: relative;
+        color: white;
+      }
+    }
+
+    .orderBtnDiv{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+
+      .orderBtn{
+        border-radius: 25px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+    }
+  }
+}

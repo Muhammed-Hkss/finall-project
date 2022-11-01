@@ -1,0 +1,117 @@
+
+.container {
+  position: absolute;
+  transform: translate(-50%);
+}
+
+.search_box input[type=text] {
+  border: none;
+  background: none;
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s ease-in 0.2s;
+  color: transparent;
+  font-size: 0.75rem;
+  line-height: 25px;
+}
+.search_box input[type=text]:hover {
+  cursor: pointer;
+}
+.search_box input[type=text]:hover:focus {
+  cursor: text;
+}
+.search_box input[type=text]:hover + span {
+  background: rgba(244, 242, 242, 0.2);
+}
+.search_box input[type=text]:focus {
+  width: 600px;
+  padding: 0 10px;
+  outline: none;
+  color: rgb(255, 247, 247);
+  background: none;
+}
+.search_box input[type=text]:focus + span {
+  width: 100%;
+}
+.search_box input[type=text]:focus + span::before {
+  width: 2px;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+}
+.search_box input[type=text] + span {
+  z-index: -1;
+  position: absolute;
+  border: 2px solid rgb(255, 255, 255);
+  top: 0;
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s ease-in 0.2s;
+  border-radius: 25px;
+  left: 0;
+}
+.search_box input[type=text] + span::before {
+  transition: all 0.2s ease-in 0.5s;
+  transform-origin: left top;
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 5px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  transform: rotate(45deg) translate(26px, -2px);
+}
+@media screen and (min-width :320px) {
+  .search_box input[type=text]:focus {
+    width: 130px;
+  }
+}
+@media screen and (min-width :375px) {
+  .search_box input[type=text]:focus {
+    width: 180px;
+  }
+}
+@media screen and (min-width :425px) {
+  .search_box input[type=text]:focus {
+    width: 200px;
+  }
+}
+@media screen and (min-width :768px) {
+  .search_box input[type=text]:focus {
+    width: 400px;
+  } 
+}
+
+
+
+
+.datacomplate{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.autocomplate{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 0;
+  height: auto;
+  background-color: white;
+  z-index: 1;
+  overflow-x: hidden;
+
+  .autocomplate_item{
+    width: 100%;
+    cursor: pointer;
+    list-style: none;
+    
+
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
